@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{1}
+\begin{thebibliography}{6}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -37,6 +37,77 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
+\bibitem[\protect\citeauthoryear{Kojima, Ijiri, White, Kataoka, and
+  Hirabayashi}{Kojima et~al\mbox{.}}{2016}]%
+        {Kojima2016}
+\bibfield{author}{\bibinfo{person}{T. Kojima}, \bibinfo{person}{T. Ijiri},
+  \bibinfo{person}{J. White}, \bibinfo{person}{H. Kataoka}, {and}
+  \bibinfo{person}{A. Hirabayashi}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{CogKnife: Food recognition from their cutting
+  sounds}. In \bibinfo{booktitle}{\emph{2016 IEEE International Conference on
+  Multimedia Expo Workshops (ICMEW)}}. \bibinfo{pages}{1--6}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/ICMEW.2016.7574741}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Kuehne, Arslan, and Serre}{Kuehne
+  et~al\mbox{.}}{2014}]%
+        {Kuehne2014}
+\bibfield{author}{\bibinfo{person}{H. Kuehne}, \bibinfo{person}{A.~B. Arslan},
+  {and} \bibinfo{person}{T. Serre}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{The Language of Actions: Recovering the Syntax and
+  Semantics of Goal-Directed Human Activities}. In
+  \bibinfo{booktitle}{\emph{Proceedings of Computer Vision and Pattern
+  Recognition Conference (CVPR)}}. \bibinfo{pages}{780--787}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{la~Torre~et al.}{la~Torre~et al.}{2008}]%
+        {Torre2008}
+\bibfield{author}{\bibinfo{person}{Fernando~De la~Torre~et al.}}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{``Guide to the Carnegie Mellon University
+  Multimodal Activity (CMU-MMAC) Database''}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport}. \bibinfo{institution}{CMU}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Maijala, Zhao, Heittola, and Virtanen}{Maijala
+  et~al\mbox{.}}{2018}]%
+        {Maijala2018}
+\bibfield{author}{\bibinfo{person}{Panu Maijala}, \bibinfo{person}{Shuyang
+  Zhao}, \bibinfo{person}{Toni Heittola}, {and} \bibinfo{person}{Tuomas
+  Virtanen}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Environmental noise monitoring using source
+  classification in sensors}.
+\newblock \bibinfo{journal}{\emph{Applied Acoustics}}  \bibinfo{volume}{129}
+  (\bibinfo{date}{01} \bibinfo{year}{2018}), \bibinfo{pages}{258--267}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.apacoust.2017.08.006}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Shimada, Kondo, Deguchi, Morin, and
+  Stern}{Shimada et~al\mbox{.}}{2013}]%
+        {Shimada2013}
+\bibfield{author}{\bibinfo{person}{Atsushi Shimada}, \bibinfo{person}{Kazuaki
+  Kondo}, \bibinfo{person}{Daisuke Deguchi}, \bibinfo{person}{G{¥'e}raldine
+  Morin}, {and} \bibinfo{person}{Helman Stern}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Kitchen Scene Context Based Gesture Recognition: A
+  Contest in ICPR2012}. In \bibinfo{booktitle}{\emph{Advances in Depth Image
+  Analysis and Applications}}, \bibfield{editor}{\bibinfo{person}{Xiaoyi
+  Jiang}, \bibinfo{person}{Olga Regina~Pereira Bellon}, \bibinfo{person}{Dmitry
+  Goldgof}, {and} \bibinfo{person}{Takeshi Oishi}} (Eds.).
+  \bibinfo{publisher}{Springer Berlin Heidelberg}, \bibinfo{address}{Berlin,
+  Heidelberg}, \bibinfo{pages}{168--185}.
+\newblock
+\showISBNx{978-3-642-40303-3}
+
+
 \bibitem[\protect\citeauthoryear{Uriu, Namai, Tokuhisa, Kashiwagi, Inami, and
   Okude}{Uriu et~al\mbox{.}}{2012}]%
         {Uriu2012}
@@ -44,8 +115,8 @@
   Namai}, \bibinfo{person}{Satoru Tokuhisa}, \bibinfo{person}{Ryo Kashiwagi},
   \bibinfo{person}{Masahiko Inami}, {and} \bibinfo{person}{Naohito Okude}.}
   \bibinfo{year}{2012}\natexlab{}.
-\newblock \showarticletitle{``Panavi: Recipe Medium with a Sensors-embedded Pan
-  for Domestic Users to Master Professional Culinary Arts''}. In
+\newblock \showarticletitle{Panavi: Recipe Medium with a Sensors-embedded Pan
+  for Domestic Users to Master Professional Culinary Arts}. In
   \bibinfo{booktitle}{\emph{Proceedings of the SIGCHI Conference on Human
   Factors in Computing Systems}} \emph{(\bibinfo{series}{CHI '12})}.
   \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA},

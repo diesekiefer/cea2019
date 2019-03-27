@@ -5,55 +5,54 @@ The style file: ACM-Reference-Format.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: reference.bib
-Warning--I didn't find a database entry for "Torre2008"
-Warning--I didn't find a database entry for "Shimada2013"
-Warning--I didn't find a database entry for "kuehne12"
-Warning--I didn't find a database entry for "Kojima2016"
-Warning--I didn't find a database entry for "Maijala2018"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 1 entry,
+Warning--empty publisher in Kojima2016
+Warning--empty address in Kojima2016
+Warning--empty publisher in Kuehne2014
+Warning--empty address in Kuehne2014
+You've used 6 entries,
             5719 wiz_defined-function locations,
-            1311 strings with 14924 characters,
-and the built_in function-call counts, 1583 in all, are:
-= -- 154
-> -- 74
+            1344 strings with 16074 characters,
+and the built_in function-call counts, 7761 in all, are:
+= -- 863
+> -- 327
 < -- 0
-+ -- 25
-- -- 24
-* -- 130
-:= -- 174
-add.period$ -- 5
-call.type$ -- 1
-change.case$ -- 10
-chr.to.int$ -- 1
-cite$ -- 1
-duplicate$ -- 127
-empty$ -- 87
-format.name$ -- 28
-if$ -- 335
++ -- 108
+- -- 104
+* -- 603
+:= -- 819
+add.period$ -- 31
+call.type$ -- 6
+change.case$ -- 49
+chr.to.int$ -- 6
+cite$ -- 10
+duplicate$ -- 676
+empty$ -- 466
+format.name$ -- 124
+if$ -- 1784
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 5
-newline$ -- 51
-num.names$ -- 8
-pop$ -- 46
+missing$ -- 24
+newline$ -- 95
+num.names$ -- 50
+pop$ -- 251
 preamble$ -- 1
-purify$ -- 19
+purify$ -- 102
 quote$ -- 0
-skip$ -- 48
+skip$ -- 248
 stack$ -- 0
-substring$ -- 111
-swap$ -- 16
+substring$ -- 568
+swap$ -- 76
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 30
-warning$ -- 0
-while$ -- 7
+type$ -- 166
+warning$ -- 4
+while$ -- 43
 width$ -- 0
-write$ -- 62
-(There were 5 warnings)
+write$ -- 154
+(There were 4 warnings)

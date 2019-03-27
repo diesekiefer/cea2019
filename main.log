@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.10)  26 MAR 2019 20:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.10)  27 MAR 2019 23:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1507,71 +1507,98 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Class acmart Warning: \vspace should only be used to provide space above/below 
 surrounding objects on input line 145.
 
-
-Package natbib Warning: Citation `Torre2008' on page 1 undefined on input line 
-156.
-
-
-Package natbib Warning: Citation `Shimada2013' on page 1 undefined on input lin
-e 156.
-
-
-Package natbib Warning: Citation `kuehne12' on page 1 undefined on input line 1
-56.
-
-
-Package natbib Warning: Citation `Kojima2016' on page 1 undefined on input line
- 157.
-
-
-Package natbib Warning: Citation `Maijala2018' on page 1 undefined on input lin
-e 162.
-
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 169.
+(Font)              scaled to size 10.0pt on input line 171.
 
-! Package inputenc Error: Unicode character は (U+306F)
-(inputenc)                not set up for use with LaTeX.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.169 MFCCは
-             音声認識分野で広く使用されている特徴量であ...
+ [1.1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-? 
+]
+Overfull \hbox (1.26376pt too wide) in paragraph at lines 203--206
+\T1/LinuxLibertineT-TLF/m/n/10 (-20) six-fold cross val-i-da-tion was per-forme
+d us-ing the six recorded
+ []
 
-! Package inputenc Error: Unicode character 音 (U+97F3)
-(inputenc)                not set up for use with LaTeX.
 
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.169 MFCCは音
-                声認識分野で広く使用されている特徴量であ...
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 218.
 
-? h
-You may provide a definition with
-\DeclareUnicodeCharacter 
-? X
- 
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 218.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 221.
+
+[2.2] Processing 'acks' comment.
+\openout3 = `comment.cut'.
+
+ Comment 'acks' writing to comment.cut.
+Straight input of comment.cut. (./comment.cut) (./main.bbl
+LaTeX Info: Redefining \tempurl on input line 89.
+LaTeX Info: Redefining \tempurl on input line 127.
+
+Underfull \hbox (badness 2469) in paragraph at lines 116--129
+[]\T1/LinuxLibertineT-TLF/m/n/8 (+20) Daisuke Uriu, Mizuki Na-mai, Satoru Tokuh
+isa, Ryo Kashi-wagi,
+ []
+
+)
+
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.0pt): 
+ Make it at least 22.45503pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3.3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 264.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 264.
+ (./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 264.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 264.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 0CC800B8E7CA3E3CA607A001E3E3F7EE;1313.
+ ) 
 Here is how much of TeX's memory you used:
- 29569 strings out of 492639
- 518326 string characters out of 6129301
- 591255 words of memory out of 5000000
- 32804 multiletter control sequences out of 15000+600000
- 683283 words of font info for 181 fonts, out of 8000000 for 9000
+ 29833 strings out of 492639
+ 523275 string characters out of 6129301
+ 596255 words of memory out of 5000000
+ 32848 multiletter control sequences out of 15000+600000
+ 718665 words of font info for 336 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 60i,7n,94p,795b,755s stack positions out of 5000i,500n,10000p,200000b,80000s
-No pages of output.
-
-pdfTeX warning: pdflatex: dangling objects discarded, no output file produced.
-
+ 60i,11n,94p,795b,791s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
+exlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{/usr/local/te
+xlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/local/tex
+live/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/usr/local/texl
+ive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/usr/local/texli
+ve/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{/usr/local/texliv
+e/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_7f4ce4.enc}{/usr/local/texlive
+/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}</usr/local/texlive/
+2018/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/local/texli
+ve/2018/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></usr/local/t
+exlive/2018/texmf-dist/fonts/type1/public/libertine/LinBiolinumTI.pfb></usr/loc
+al/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr
+/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb>
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertineTI
+.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/fxlri-7letter
+s.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb>
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/rtxmi7.pfb></usr/l
+ocal/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/te
+xlive/2018/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/20
+18/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2018/texmf
+-dist/fonts/type1/public/newtx/zxlri.pfb></usr/local/texlive/2018/texmf-dist/fo
+nts/type1/public/newtx/zxlzi.pfb>
+Output written on main.pdf (3 pages, 527356 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 27 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 500000)
- 40565 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 198 PDF objects out of 1000 (max. 8388607)
+ 157 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
+ 58989 words of extra memory for PDF output out of 61914 (max. 10000000)
 
