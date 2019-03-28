@@ -233,15 +233,7 @@ Four classification experiments were conducted to classify cooking noise into th
 First, as a baseline, the cooking sound was converted to a feature sequence, and a discrimination experiment was performed assuming that each time frame always follows GMM (MFCC).
 The feature is a 36-dimensional vector combining 12-dimensional MFCC with 1st-order and 2nd-order dynamic feature. Both frame length and frame shift are \SI{16}{ms}. Frames are grouped into segments so that the identification is performed for each segment.
 
-Next, we tried soft clustering using GMM for all cooking sound data, and tried to generate a histogram using the class posterior probability for each frame (GMM). The mixture number of GMM was 20, and the histogram was set to be generated every second.
-
-Third, we used the NMF basis histogram, which is the proposed method (NMF). The specified number of NMFs was 20, and the histogram was set to be generated every second.
-
-Finally, in addition to the proposed method, we also examined a method for decomposing a spectrogram into two spectrograms before base decomposition with NMF (HPSS).
-
-The decomposition method is intended to preserve the continuity in the time direction and the frequency direction respectively by median filter, and it is expected that the spectral basis will be learned appropriately by this.
-The basis number of NMF was set to be 10 for each of two resolved spectrograms, and the histogram was generated every one second.
-The mixing number of GMM was only 2 mixed with MFCC, and the other 3 methods were 32 mixed.
+We also used the NMF basis histogram, which is the proposed method (NMF). The specified number of NMF bases was 20, and the histogram was set to be generated every second.
 
 \begin{table}[t]
   \centering
@@ -285,13 +277,10 @@ The mixing number of GMM was only 2 mixed with MFCC, and the other 3 methods wer
 
 The table \ref{result1} \ref{result2} shows the F value of each class and the whole for each method.
 
-The MFCC method directly associates the acoustic features with the labels, and it is considered that the difference between various cooking environments was not successfully absorbed.
-Moreover, the GMM method is characterized by the class posterior probability and is expected to be robust to differences in environment, but it has the lowest F value. This was the worst% result.
-GMM learns that each time frame belongs to only one cluster, so unlike NMF where multiple bases are allowed to be included at the same time, cooking behavior could not be modeled well It is thought that there is no.
-On the other hand, the proposed NMF method can model cooking behavior by the superposition pattern of sound events, and it is thought that good results have been obtained.
-When HPSS is used in addition to the proposed method, it was expected that the basis could be learned more properly by separating the pulsing sound and the steady sound in advance. It was suggested that it did not fit the purpose of expressing the probability distribution of each action.
-
-
+% MFCC と NMF では，MFCCの方が全体として高い結果となった．
+MFCC is higher than NMF overall.
+% 最も高い精度となったのは，MFCCのGMM 4混合のときで，70パーセントを超える結果となった．
+The highest accuracy was achieved with MFCC and GMM 4 mix, which results more than 70 \%.
 
 \subsection{Post processing}
 % 制約を設けた結果について書く
