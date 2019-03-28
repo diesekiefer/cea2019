@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.10)  28 MAR 2019 16:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.10)  28 MAR 2019 18:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1378,6 +1378,12 @@ surrounding objects on input line 127.
 
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 10.0pt on input line 127.
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 127.
+
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 8.0pt on input line 127.
 LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TLF on
  input line 127.
 
@@ -1386,21 +1392,12 @@ fd
 File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/
 LinuxLibertineT-TLF.
 )
-LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 7.3pt on input line 127.
+LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 127.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxLibertineT-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 127.
-
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 127.
-LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 127.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 8.0pt on input line 127.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
@@ -1425,6 +1422,7 @@ LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
 (Font)              scaled to size 10.0pt on input line 127.
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 127.
+
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
 surrounding objects on input line 127.
@@ -1454,96 +1452,86 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\\' on input line 127.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 127.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\advance' on input line 127.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\c@@concepts' on input line 127.
-
-
 Class acmart Warning: \vspace should only be used to provide space above/below 
 surrounding objects on input line 127.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 145.
+surrounding objects on input line 131.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 145.
+surrounding objects on input line 131.
 
-<fig/aed_fig.pdf, id=77, 562.10098pt x 360.07825pt>
+<fig/aed_fig.pdf, id=70, 562.10098pt x 360.07825pt>
 File: fig/aed_fig.pdf Graphic file (type pdf)
 <use fig/aed_fig.pdf>
-Package pdftex.def Info: fig/aed_fig.pdf  used on input line 147.
+Package pdftex.def Info: fig/aed_fig.pdf  used on input line 133.
 (pdftex.def)             Requested size: 227.62204pt x 145.8144pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1715) has occurred while \output is active []
 
  [1.1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-]
-Overfull \hbox (1.26376pt too wide) in paragraph at lines 213--216
+ <./fig/aed_fig.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (1.26376pt too wide) in paragraph at lines 214--217
 \T1/LinuxLibertineT-TLF/m/n/10 (-20) six-fold cross val-i-da-tion was per-forme
 d us-ing the six recorded
  []
 
-[2.2 <./fig/aed_fig.pdf>]
+[2.2]
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 227.
-
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 227.
+surrounding objects on input line 228.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 247.
+surrounding objects on input line 228.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 247.
+surrounding objects on input line 248.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 275.
+surrounding objects on input line 248.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 275.
+surrounding objects on input line 276.
 
-<fig/N63_m4.pdf, id=137, 578.16pt x 144.54pt>
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 276.
+
+<fig/N63_m4.pdf, id=135, 578.16pt x 144.54pt>
 File: fig/N63_m4.pdf Graphic file (type pdf)
 <use fig/N63_m4.pdf>
-Package pdftex.def Info: fig/N63_m4.pdf  used on input line 277.
+Package pdftex.def Info: fig/N63_m4.pdf  used on input line 278.
 (pdftex.def)             Requested size: 227.62204pt x 56.90408pt.
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 291.
+surrounding objects on input line 292.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 291.
+surrounding objects on input line 292.
 
-<fig/N63_m4_smoothed.pdf, id=138, 578.16pt x 144.54pt>
+<fig/N63_m4_smoothed.pdf, id=136, 578.16pt x 144.54pt>
 File: fig/N63_m4_smoothed.pdf Graphic file (type pdf)
 <use fig/N63_m4_smoothed.pdf>
-Package pdftex.def Info: fig/N63_m4_smoothed.pdf  used on input line 293.
+Package pdftex.def Info: fig/N63_m4_smoothed.pdf  used on input line 294.
 (pdftex.def)             Requested size: 227.62204pt x 56.90408pt.
 Processing 'acks' comment.
 \openout3 = `comment.cut'.
 
  Comment 'acks' writing to comment.cut.
 Straight input of comment.cut. (./comment.cut) (./main.bbl
+LaTeX Info: Redefining \tempurl on input line 66.
+
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
  Make it at least 22.45503pt.
@@ -1555,7 +1543,6 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 pdfTeX warning: pdflatex (file ./fig/N63_m4_smoothed.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
 >]
-LaTeX Info: Redefining \tempurl on input line 66.
 LaTeX Info: Redefining \tempurl on input line 103.
 LaTeX Info: Redefining \tempurl on input line 119.
 LaTeX Info: Redefining \tempurl on input line 156.
@@ -1566,48 +1553,51 @@ Underfull \hbox (badness 2469) in paragraph at lines 165--178
 isa, Ryo Kashi-wagi,
  []
 
-) [4.4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 320.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 320.
+)
+Overfull \vbox (1.90399pt too high) has occurred while \output is active []
+
+
+[4.4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 321.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 321.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 320.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 320.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 321.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 321.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 80608021D273C072048758203461DDD1;2094.
  ) 
 Here is how much of TeX's memory you used:
- 29866 strings out of 492639
- 523785 string characters out of 6129301
- 599255 words of memory out of 5000000
- 32871 multiletter control sequences out of 15000+600000
- 707777 words of font info for 336 fonts, out of 8000000 for 9000
+ 29861 strings out of 492639
+ 523631 string characters out of 6129301
+ 598255 words of memory out of 5000000
+ 32866 multiletter control sequences out of 15000+600000
+ 707192 words of font info for 335 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 60i,11n,94p,795b,953s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,12n,94p,795b,956s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{/usr/local/te
 xlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/local/tex
 live/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/usr/local/texl
-ive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/usr/local/texli
-ve/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{/usr/local/texliv
-e/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_7f4ce4.enc}{/usr/local/texlive
-/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}</usr/local/texlive/
-2018/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/local/texli
-ve/2018/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/loc
-al/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb
-></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/fxlri-7letters.pf
-b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/rtxmi7.pfb></usr/local
-/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texliv
-e/2018/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2018/t
-exmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2018/texmf-dis
-t/fonts/type1/public/newtx/zxlri.pfb></usr/local/texlive/2018/texmf-dist/fonts/
-type1/public/newtx/zxlzi.pfb>
-Output written on main.pdf (4 pages, 529240 bytes).
+ive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{/usr/local/texli
+ve/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/usr/local/texliv
+e/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}</usr/local/texlive
+/2018/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/local/texl
+ive/2018/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></usr/local/
+texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/lo
+cal/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></u
+sr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pf
+b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/fxlri-7letters.p
+fb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></u
+sr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/rtxmi7.pfb></usr/loca
+l/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texli
+ve/2018/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2018/
+texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2018/texmf-di
+st/fonts/type1/public/newtx/zxlri.pfb></usr/local/texlive/2018/texmf-dist/fonts
+/type1/public/newtx/zxlzi.pfb>
+Output written on main.pdf (4 pages, 523798 bytes).
 PDF statistics:
- 248 PDF objects out of 1000 (max. 8388607)
- 200 compressed objects within 2 object streams
+ 243 PDF objects out of 1000 (max. 8388607)
+ 196 compressed objects within 2 object streams
  40 named destinations out of 1000 (max. 500000)
- 50836 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 50324 words of extra memory for PDF output out of 51595 (max. 10000000)
 
