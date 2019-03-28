@@ -1,13 +1,13 @@
 %
 % The first command in your LaTeX source must be the \documentclass command.
-\documentclass[sigconf]{acmart}
+\documentclass[sigconf,anonymous]{acmart}
 
 \usepackage{bm}
+\usepackage[margin=5pt]{subcaption}
 \usepackage{siunitx}
 %
 % defining the \BibTeX command - from Oren Patashnik's original BibTeX documentation.
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08emT\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
-
 
 % このコピーライトの所は一体どうすればいいのかを確認する必要がある
 % Rights management information.
@@ -17,14 +17,14 @@
 %
 % These commands are for a PROCEEDINGS abstract or paper.
 
-% \copyrightyear{2018}
-% \acmYear{2018}
-% \setcopyright{acmlicensed}
-% \acmConference[Woodstock '18]{Woodstock '18: ACM Symposium on Neural Gaze Detection}{June 03--05, 2018}{Woodstock, NY}
-% \acmBooktitle{Woodstock '18: ACM Symposium on Neural Gaze Detection, June 03--05, 2018, Woodstock, NY}
-% \acmPrice{15.00}
-% \acmDOI{10.1145/1122445.1122456}
-% \acmISBN{978-1-4503-9999-9/18/06}
+\copyrightyear{2018}
+\acmYear{2018}
+\setcopyright{acmlicensed}
+\acmConference[Woodstock '18]{Woodstock '18: ACM Symposium on Neural Gaze Detection}{June 03--05, 2018}{Woodstock, NY}
+\acmBooktitle{Woodstock '18: ACM Symposium on Neural Gaze Detection, June 03--05, 2018, Woodstock, NY}
+\acmPrice{15.00}
+\acmDOI{10.1145/1122445.1122456}
+\acmISBN{978-1-4503-9999-9/18/06}
 
 %  CEAに出す原稿はジャーナルではないはずなので無視して良さそう
 % These commands are for a JOURNAL article.
@@ -56,20 +56,20 @@
 % The "author" command and its associated commands are used to define the authors and their affiliations.
 % Of note is the shared affiliation of the first two authors, and the "authornote" and "authornotemark" commands
 % used to denote shared contribution to the research.
-% \author{Yusaku Korematsu}
-% \authornote{Both authors contributed equally to this research.}
-% \email{korematsu@gavo.t.u-tokyo.ac.jp}
-% \orcid{1234-5678-9012}
-% \author{Daisuke Satio}
-% \authornotemark[1]
-% \email{dsk-saito@gavo.t.u-tokyo.ac.jp}
-% \affiliation{%
-%   \institution{The University of Tokyo}
-%   \streetaddress{P.O. Box 1212}
-%   \city{Tokyo}
-%   \state{Japan}
-%   \postcode{43017-6221}
-% }
+\author{Yusaku Korematsu}
+\authornote{Both authors contributed equally to this research.}
+\email{korematsu@gavo.t.u-tokyo.ac.jp}
+\orcid{1234-5678-9012}
+\author{Daisuke Satio}
+\authornotemark[1]
+\email{dsk-saito@gavo.t.u-tokyo.ac.jp}
+\affiliation{%
+  \institution{The University of Tokyo}
+  \streetaddress{P.O. Box 1212}
+  \city{Tokyo}
+  \state{Japan}
+  \postcode{43017-6221}
+}
 
 %
 % By default, the full list of authors will be used in the page headers. Often, this list is too long, and will overlap
@@ -210,6 +210,24 @@ The specified food is "Yakisoba", which is Fried noodles. The recipe specified a
 For recording, we used an iPhone 8 built-in microphone, and recorded using \SI{48}{kHz} sampling, and in the experiment we used downsampling to \SI{16}{kHz}. The recorded data is 6 times, about 130 minutes in total.
 The labeling was done by the cook himself, and I asked them to fill in each section of the procedure described in the recipe.
 
+\begin{figure}[t]
+  \centering
+  \begin{minipage}{0.48\hsize}
+    \centering
+    \includegraphics[width=3cm]{fig/ingredients.pdf}
+    \subcaption{the ingredients}
+  \end{minipage}
+  \begin{minipage}{0.48\hsize}
+    \centering
+    \includegraphics[width=3cm]{fig/dish.pdf}
+    \subcaption{the dish}
+  \end{minipage}
+  \caption{the ingredients and dish}
+  \Description{}
+  \label{yakisoba}
+\end{figure}
+
+
 \subsection{Frame by frame cooking state identification}
 Four classification experiments were conducted to classify cooking noise into three classes: "Cut", "Fish", and "Other". A six-fold cross validation was performed using the six recorded data recorded. The probability density function for all experiments was Gaussian mixture model (GMM).
 First, as a baseline, the cooking sound was converted to a feature sequence, and a discrimination experiment was performed assuming that each time frame always follows GMM (MFCC).
@@ -273,13 +291,7 @@ GMM learns that each time frame belongs to only one cluster, so unlike NMF where
 On the other hand, the proposed NMF method can model cooking behavior by the superposition pattern of sound events, and it is thought that good results have been obtained.
 When HPSS is used in addition to the proposed method, it was expected that the basis could be learned more properly by separating the pulsing sound and the steady sound in advance. It was suggested that it did not fit the purpose of expressing the probability distribution of each action.
 
-\begin{figure}[t]
-  \centering
-  \includegraphics[width=8cm]{fig/N63_m4.pdf}
-  \caption{}
-  \Description{}
-  \label{baseine_timeline_result}
-\end{figure}
+
 
 \subsection{Post processing}
 % 制約を設けた結果について書く
@@ -288,6 +300,14 @@ When HPSS is used in addition to the proposed method, it was expected that the b
 In frame-by-frame state estimation, the problem is that the state changes frequently. As a method to avoid this, it is generally used to constrain the state transition using HMM.
 % 本論文では，単に状態遷移回数を既知として，状態遷移回数が正しくなるまで平滑化フィルタをかけるという手法を使用した．
 In this paper, we use the method of simply making the number of state transitions known and applying a smoothing filter until the number of state transitions is correct.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=8cm]{fig/N63_m4.pdf}
+  \caption{}
+  \Description{}
+  \label{baseine_timeline_result}
+\end{figure}
 
 \begin{figure}[t]
   \centering

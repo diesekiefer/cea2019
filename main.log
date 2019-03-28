@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.10)  28 MAR 2019 18:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.10)  28 MAR 2019 18:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -36,6 +36,7 @@ Package acmart Info: Explicitly selecting natbib mode on input line 122.
 Package acmart Info: Not using anonymous mode on input line 130.
 Package acmart Info: Not using timestamp mode on input line 138.
 Package acmart Info: Not using authordraft mode on input line 148.
+Package acmart Info: Using anonymous mode on input line 157.
 Class acmart Info: Using format sigconf, number 4 on input line 157.
 Class acmart Info: Using fontsize 9pt on input line 215.
 
@@ -839,23 +840,28 @@ Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 207.
 )
+(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
+\c@subfigure=\count143
+\c@subtable=\count144
+)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/siunitx/siunitx.sty
 (/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2018-12-06 L3 programming layer (loader) 
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2018-12-06 L3 programming layer (code)
-\c_max_int=\count143
-\l_tmpa_int=\count144
-\l_tmpb_int=\count145
-\g_tmpa_int=\count146
-\g_tmpb_int=\count147
-\g__kernel_prg_map_int=\count148
-\c_log_iow=\count149
-\l_iow_line_count_int=\count150
-\l__iow_line_target_int=\count151
-\l__iow_one_indent_int=\count152
-\l__iow_indent_int=\count153
+\c_max_int=\count145
+\l_tmpa_int=\count146
+\l_tmpb_int=\count147
+\g_tmpa_int=\count148
+\g_tmpb_int=\count149
+\g__kernel_prg_map_int=\count150
+\c_log_iow=\count151
+\l_iow_line_count_int=\count152
+\l__iow_line_target_int=\count153
+\l__iow_one_indent_int=\count154
+\l__iow_indent_int=\count155
 \c_zero_dim=\dimen156
 \c_max_dim=\dimen157
 \l_tmpa_dim=\dimen158
@@ -874,78 +880,78 @@ Package: expl3 2018-12-06 L3 programming layer (code)
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count154
-\l__intarray_loop_int=\count155
+\l_keys_choice_int=\count156
+\l__intarray_loop_int=\count157
 \c__intarray_sp_dim=\dimen162
-\g__intarray_font_int=\count156
-\c__fp_leading_shift_int=\count157
-\c__fp_middle_shift_int=\count158
-\c__fp_trailing_shift_int=\count159
-\c__fp_big_leading_shift_int=\count160
-\c__fp_big_middle_shift_int=\count161
-\c__fp_big_trailing_shift_int=\count162
-\c__fp_Bigg_leading_shift_int=\count163
-\c__fp_Bigg_middle_shift_int=\count164
-\c__fp_Bigg_trailing_shift_int=\count165
-\c__kernel_randint_max_int=\count166
-\g__fp_array_int=\count167
-\l__fp_array_loop_int=\count168
-\l__sort_length_int=\count169
-\l__sort_min_int=\count170
-\l__sort_top_int=\count171
-\l__sort_max_int=\count172
-\l__sort_true_max_int=\count173
-\l__sort_block_int=\count174
-\l__sort_begin_int=\count175
-\l__sort_end_int=\count176
-\l__sort_A_int=\count177
-\l__sort_B_int=\count178
-\l__sort_C_int=\count179
-\l__tl_analysis_normal_int=\count180
-\l__tl_analysis_index_int=\count181
-\l__tl_analysis_nesting_int=\count182
-\l__tl_analysis_type_int=\count183
-\l__regex_internal_a_int=\count184
-\l__regex_internal_b_int=\count185
-\l__regex_internal_c_int=\count186
-\l__regex_balance_int=\count187
-\l__regex_group_level_int=\count188
-\l__regex_mode_int=\count189
-\c__regex_cs_in_class_mode_int=\count190
-\c__regex_cs_mode_int=\count191
-\l__regex_catcodes_int=\count192
-\l__regex_default_catcodes_int=\count193
-\c__regex_catcode_D_int=\count194
-\c__regex_catcode_S_int=\count195
-\c__regex_catcode_L_int=\count196
-\c__regex_catcode_O_int=\count266
-\c__regex_catcode_A_int=\count267
-\c__regex_all_catcodes_int=\count268
-\l__regex_show_lines_int=\count269
-\l__regex_min_state_int=\count270
-\l__regex_max_state_int=\count271
-\l__regex_left_state_int=\count272
-\l__regex_right_state_int=\count273
-\l__regex_capturing_group_int=\count274
-\l__regex_min_pos_int=\count275
-\l__regex_max_pos_int=\count276
-\l__regex_curr_pos_int=\count277
-\l__regex_start_pos_int=\count278
-\l__regex_success_pos_int=\count279
-\l__regex_curr_char_int=\count280
-\l__regex_curr_catcode_int=\count281
-\l__regex_last_char_int=\count282
-\l__regex_case_changed_char_int=\count283
-\l__regex_curr_state_int=\count284
-\l__regex_step_int=\count285
-\l__regex_min_active_int=\count286
-\l__regex_max_active_int=\count287
-\l__regex_replacement_csnames_int=\count288
-\l__regex_match_count_int=\count289
-\l__regex_min_submatch_int=\count290
-\l__regex_submatch_int=\count291
-\l__regex_zeroth_submatch_int=\count292
-\g__regex_trace_regex_int=\count293
+\g__intarray_font_int=\count158
+\c__fp_leading_shift_int=\count159
+\c__fp_middle_shift_int=\count160
+\c__fp_trailing_shift_int=\count161
+\c__fp_big_leading_shift_int=\count162
+\c__fp_big_middle_shift_int=\count163
+\c__fp_big_trailing_shift_int=\count164
+\c__fp_Bigg_leading_shift_int=\count165
+\c__fp_Bigg_middle_shift_int=\count166
+\c__fp_Bigg_trailing_shift_int=\count167
+\c__kernel_randint_max_int=\count168
+\g__fp_array_int=\count169
+\l__fp_array_loop_int=\count170
+\l__sort_length_int=\count171
+\l__sort_min_int=\count172
+\l__sort_top_int=\count173
+\l__sort_max_int=\count174
+\l__sort_true_max_int=\count175
+\l__sort_block_int=\count176
+\l__sort_begin_int=\count177
+\l__sort_end_int=\count178
+\l__sort_A_int=\count179
+\l__sort_B_int=\count180
+\l__sort_C_int=\count181
+\l__tl_analysis_normal_int=\count182
+\l__tl_analysis_index_int=\count183
+\l__tl_analysis_nesting_int=\count184
+\l__tl_analysis_type_int=\count185
+\l__regex_internal_a_int=\count186
+\l__regex_internal_b_int=\count187
+\l__regex_internal_c_int=\count188
+\l__regex_balance_int=\count189
+\l__regex_group_level_int=\count190
+\l__regex_mode_int=\count191
+\c__regex_cs_in_class_mode_int=\count192
+\c__regex_cs_mode_int=\count193
+\l__regex_catcodes_int=\count194
+\l__regex_default_catcodes_int=\count195
+\c__regex_catcode_D_int=\count196
+\c__regex_catcode_S_int=\count266
+\c__regex_catcode_L_int=\count267
+\c__regex_catcode_O_int=\count268
+\c__regex_catcode_A_int=\count269
+\c__regex_all_catcodes_int=\count270
+\l__regex_show_lines_int=\count271
+\l__regex_min_state_int=\count272
+\l__regex_max_state_int=\count273
+\l__regex_left_state_int=\count274
+\l__regex_right_state_int=\count275
+\l__regex_capturing_group_int=\count276
+\l__regex_min_pos_int=\count277
+\l__regex_max_pos_int=\count278
+\l__regex_curr_pos_int=\count279
+\l__regex_start_pos_int=\count280
+\l__regex_success_pos_int=\count281
+\l__regex_curr_char_int=\count282
+\l__regex_curr_catcode_int=\count283
+\l__regex_last_char_int=\count284
+\l__regex_case_changed_char_int=\count285
+\l__regex_curr_state_int=\count286
+\l__regex_step_int=\count287
+\l__regex_min_active_int=\count288
+\l__regex_max_active_int=\count289
+\l__regex_replacement_csnames_int=\count290
+\l__regex_match_count_int=\count291
+\l__regex_min_submatch_int=\count292
+\l__regex_submatch_int=\count293
+\l__regex_zeroth_submatch_int=\count294
+\g__regex_trace_regex_int=\count295
 \c_empty_box=\box34
 \l_tmpa_box=\box35
 \l_tmpb_box=\box36
@@ -987,20 +993,20 @@ Package: expl3 2018-12-06 L3 programming layer (code)
 \l__coffin_top_corner_dim=\dimen185
 \l__coffin_scaled_total_height_dim=\dimen186
 \l__coffin_scaled_width_dim=\dimen187
-\l__seq_internal_a_int=\count294
-\l__seq_internal_b_int=\count295
+\l__seq_internal_a_int=\count296
+\l__seq_internal_b_int=\count297
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2018-12-06 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count296
+\l__driver_color_stack_int=\count298
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2018-10-17 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count297
-\g__xparse_grabber_int=\count298
-\l__xparse_m_args_int=\count299
-\l__xparse_mandatory_args_int=\count300
-\l__xparse_v_nesting_int=\count301
+\l__xparse_current_arg_int=\count299
+\g__xparse_grabber_int=\count300
+\l__xparse_m_args_int=\count301
+\l__xparse_mandatory_args_int=\count302
+\l__xparse_v_nesting_int=\count303
 )
 Package: siunitx 2018/05/17 v2.7s A comprehensive (SI) units package
 
@@ -1019,27 +1025,27 @@ Package: l3keys2e 2018-10-17 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box51
 \l__siunitx_tmp_dim=\dimen190
-\l__siunitx_tmp_int=\count302
-\l__siunitx_number_mantissa_length_int=\count303
-\l__siunitx_number_uncert_length_int=\count304
-\l__siunitx_round_int=\count305
-\l__siunitx_process_decimal_int=\count306
-\l__siunitx_process_uncertainty_int=\count307
-\l__siunitx_process_fixed_int=\count308
-\l__siunitx_process_integer_min_int=\count309
-\l__siunitx_process_precision_int=\count310
-\l__siunitx_group_min_int=\count311
+\l__siunitx_tmp_int=\count304
+\l__siunitx_number_mantissa_length_int=\count305
+\l__siunitx_number_uncert_length_int=\count306
+\l__siunitx_round_int=\count307
+\l__siunitx_process_decimal_int=\count308
+\l__siunitx_process_uncertainty_int=\count309
+\l__siunitx_process_fixed_int=\count310
+\l__siunitx_process_integer_min_int=\count311
+\l__siunitx_process_precision_int=\count312
+\l__siunitx_group_min_int=\count313
 \l__siunitx_angle_marker_box=\box52
 \l__siunitx_angle_unit_box=\box53
 \l__siunitx_angle_marker_dim=\dimen191
 \l__siunitx_angle_unit_dim=\dimen192
-\l__siunitx_unit_int=\count312
-\l__siunitx_unit_denominator_int=\count313
-\l__siunitx_unit_numerator_int=\count314
-\l__siunitx_unit_prefix_int=\count315
-\l__siunitx_unit_prefix_base_int=\count316
-\l__siunitx_unit_prefix_gram_int=\count317
-\l__siunitx_number_product_int=\count318
+\l__siunitx_unit_int=\count314
+\l__siunitx_unit_denominator_int=\count315
+\l__siunitx_unit_numerator_int=\count316
+\l__siunitx_unit_prefix_int=\count317
+\l__siunitx_unit_prefix_base_int=\count318
+\l__siunitx_unit_prefix_gram_int=\count319
+\l__siunitx_number_product_int=\count320
 \c__siunitx_one_fill_skip=\skip77
 \l__siunitx_table_unit_align_skip=\skip78
 \l__siunitx_table_exponent_dim=\dimen193
@@ -1060,73 +1066,73 @@ Package: l3keys2e 2018-10-17 LaTeX2e option processing using LaTeX3 keys
 (/usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator.sty
 Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
 ))
-Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 50.
+Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 51.
 
-\c@theorem=\count319
+\c@theorem=\count321
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/preprint/balance.sty
 Package: balance 1999/02/23 4.3 (PWD)
 \oldvsize=\dimen261
 )
 Excluding comment 'screenonly' Include comment 'printonly'
-Include comment 'anonsuppress' (./main.aux)
+Excluding comment 'anonsuppress' Excluding comment 'acks' (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 50.
-LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 50
+LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 51.
+LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 51
 .
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/newtx/omlnxlmi.fd
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 50.
-LaTeX Font Info:    Try loading font information for U+ntxexa on input line 50.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 51.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 51.
 
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 50.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 51.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 50.
-LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 50
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 51.
+LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 51
 .
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 51.
 LaTeX Font Info:    Try loading font information for LMX+ntxexx on input line 5
-0.
+1.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    ... okay on input line 51.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 50.
+(Font)              scaled to size 7.0pt on input line 51.
 LaTeX Font Info:    Try loading font information for OT1+LinuxLibertineT-TLF on
- input line 50.
+ input line 51.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/libertine/OT1LinuxLibertineT-TLF.
 fd
@@ -1134,44 +1140,44 @@ File: OT1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for OT1/
 LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 50.
+(Font)              scaled to size 7.3pt on input line 51.
 <<ot1.cmap>>
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 5.5pt on input line 50.
+(Font)              scaled to size 5.5pt on input line 51.
 <<oml.cmap>>
-LaTeX Font Info:    Try loading font information for U+msa on input line 50.
+LaTeX Font Info:    Try loading font information for U+msa on input line 51.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 50.
+LaTeX Font Info:    Try loading font information for U+msb on input line 51.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+ntxmia on input line 50.
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 51.
 
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsym on input line 50.
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 51.
 
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 50.
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 51.
 
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
-(Font)              scaled to size 7.3pt on input line 50.
+(Font)              scaled to size 7.3pt on input line 51.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
-(Font)              scaled to size 5.5pt on input line 50.
-LaTeX Info: Redefining \microtypecontext on input line 50.
+(Font)              scaled to size 5.5pt on input line 51.
+LaTeX Info: Redefining \microtypecontext on input line 51.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1188,7 +1194,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box58
-Package hyperref Info: Link coloring OFF on input line 50.
+Package hyperref Info: Link coloring OFF on input line 51.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1196,11 +1202,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count320
+\c@section@level=\count322
 )
-LaTeX Info: Redefining \ref on input line 50.
-LaTeX Info: Redefining \pageref on input line 50.
-LaTeX Info: Redefining \nameref on input line 50.
+LaTeX Info: Redefining \ref on input line 51.
+LaTeX Info: Redefining \pageref on input line 51.
+LaTeX Info: Redefining \nameref on input line 51.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
@@ -1209,16 +1215,16 @@ LaTeX Info: Redefining \nameref on input line 50.
 
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count321
+\scratchcounter=\count323
 \scratchdimen=\dimen262
 \scratchbox=\box59
-\nofMPsegments=\count322
-\nofMParguments=\count323
+\nofMPsegments=\count324
+\nofMParguments=\count325
 \everyMPshowfont=\toks33
-\MPscratchCnt=\count324
+\MPscratchCnt=\count326
 \MPscratchDim=\dimen263
-\MPnumerator=\count325
-\makeMPintoPDFobject=\count326
+\MPnumerator=\count327
+\makeMPintoPDFobject=\count328
 \everyMPtoPDFconversion=\toks34
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1271,8 +1277,8 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@mv@tabular=\count327
-\c@mv@boldtabular=\count328
+\c@mv@tabular=\count329
+\c@mv@boldtabular=\count330
 (/usr/local/texlive/2018/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
@@ -1289,7 +1295,7 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 50.
+(Font)              scaled to size 9.0pt on input line 51.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxLibertineT-TLF' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
@@ -1301,30 +1307,30 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
-(Font)              scaled to size 9.0pt on input line 50.
+(Font)              scaled to size 9.0pt on input line 51.
 LaTeX Font Info:    Try loading font information for T1+LinuxBiolinumT-TLF on i
-nput line 50.
+nput line 51.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/libertine/T1LinuxBiolinumT-TLF.fd
 File: T1LinuxBiolinumT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/Lin
 uxBiolinumT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 50.
+(Font)              scaled to size 9.0pt on input line 51.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxBiolinumT-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 50.
+(Font)              scaled to size 7.3pt on input line 51.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 5.5pt on input line 50.
-LaTeX Font Info:    Try loading font information for T1+zi4 on input line 50.
+(Font)              scaled to size 5.5pt on input line 51.
+LaTeX Font Info:    Try loading font information for T1+zi4 on input line 51.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/inconsolata/t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 9.0pt on input line 50.
+(Font)              scaled to size 9.0pt on input line 51.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -1336,7 +1342,7 @@ Package microtype Info: Character `textemdash ' is missing
 (microtype)             in font `T1/zi4/m/n/9'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 7.3pt on input line 50.
+(Font)              scaled to size 7.3pt on input line 51.
 Package microtype Info: Character `textendash ' is missing
 (microtype)             in font `T1/zi4/m/n/7.3'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1344,7 +1350,7 @@ Package microtype Info: Character `textemdash ' is missing
 (microtype)             in font `T1/zi4/m/n/7.3'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 5.5pt on input line 50.
+(Font)              scaled to size 5.5pt on input line 51.
 Package microtype Info: Character `textendash ' is missing
 (microtype)             in font `T1/zi4/m/n/5.5'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1354,32 +1360,66 @@ Package microtype Info: Character `textemdash ' is missing
 
 Excluding 'CCSXML' comment.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 127.
+(Font)              scaled to size 17.28pt on input line 128.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 127.
+(Font)              scaled to size 17.28pt on input line 128.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 127.
+(Font)              scaled to size 17.28pt on input line 128.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 127.
+surrounding objects on input line 128.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 127.
+surrounding objects on input line 128.
 
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 127.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 127.
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 127.
-
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 7.0pt on input line 127.
+(Font)              scaled to size 12.0pt on input line 128.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 128.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.8pt on input line 128.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 6.6pt on input line 128.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 128.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 8.8pt on input line 128.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 6.6pt on input line 128.
+LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
+(Font)              scaled to size 12.0pt on input line 128.
+Package microtype Info: Character `textendash ' is missing
+(microtype)             in font `T1/zi4/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textemdash ' is missing
+(microtype)             in font `T1/zi4/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
+(Font)              scaled to size 8.8pt on input line 128.
+Package microtype Info: Character `textendash ' is missing
+(microtype)             in font `T1/zi4/m/n/8.8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textemdash ' is missing
+(microtype)             in font `T1/zi4/m/n/8.8'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
+(Font)              scaled to size 6.6pt on input line 128.
+Package microtype Info: Character `textendash ' is missing
+(microtype)             in font `T1/zi4/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textemdash ' is missing
+(microtype)             in font `T1/zi4/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
+(Font)              scaled to size 12.0pt on input line 128.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
+(Font)              scaled to size 8.8pt on input line 128.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
+(Font)              scaled to size 6.6pt on input line 128.
 LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TLF on
- input line 127.
+ input line 128.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.
 fd
@@ -1387,38 +1427,48 @@ File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/
 LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 127.
+(Font)              scaled to size 8.8pt on input line 128.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxLibertineT-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 127.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 127.
-LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 127.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 128.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 127.
+surrounding objects on input line 128.
+
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 7.0pt on input line 128.
+LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 128.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 9.0pt on input line 128.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 10.95pt on input line 128.
+LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 128.
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 128.
 
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 127.
+(Font)              scaled to size 8.0pt on input line 128.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 127.
+(Font)              scaled to size 8.0pt on input line 128.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 127.
+(Font)              scaled to size 8.0pt on input line 128.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 127.
+(Font)              scaled to size 8.0pt on input line 128.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.2pt on input line 127.
+(Font)              scaled to size 6.2pt on input line 128.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 127.
+(Font)              scaled to size 8.0pt on input line 128.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 6.2pt on input line 127.
+(Font)              scaled to size 6.2pt on input line 128.
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 8.0pt on input line 127.
+(Font)              scaled to size 8.0pt on input line 128.
 Package microtype Info: Character `textendash ' is missing
 (microtype)             in font `T1/zi4/m/n/8'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1426,7 +1476,7 @@ Package microtype Info: Character `textemdash ' is missing
 (microtype)             in font `T1/zi4/m/n/8'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 6.2pt on input line 127.
+(Font)              scaled to size 6.2pt on input line 128.
 Package microtype Info: Character `textendash ' is missing
 (microtype)             in font `T1/zi4/m/n/6.2'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1434,75 +1484,99 @@ Package microtype Info: Character `textemdash ' is missing
 (microtype)             in font `T1/zi4/m/n/6.2'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
-(Font)              scaled to size 8.0pt on input line 127.
+(Font)              scaled to size 8.0pt on input line 128.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
-(Font)              scaled to size 6.2pt on input line 127.
+(Font)              scaled to size 6.2pt on input line 128.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 127.
+(hyperref)                removing `\\' on input line 128.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 127.
+surrounding objects on input line 128.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 131.
+surrounding objects on input line 132.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 131.
+surrounding objects on input line 132.
 
 <fig/aed_fig.pdf, id=66, 562.10098pt x 360.07825pt>
 File: fig/aed_fig.pdf Graphic file (type pdf)
 <use fig/aed_fig.pdf>
-Package pdftex.def Info: fig/aed_fig.pdf  used on input line 133.
+Package pdftex.def Info: fig/aed_fig.pdf  used on input line 134.
 (pdftex.def)             Requested size: 227.62204pt x 145.8144pt.
-[1.1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+Underfull \vbox (badness 7047) has occurred while \output is active []
+
+ [1.1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
  <./fig/aed_fig.pdf>]
+Underfull \vbox (badness 3460) has occurred while \output is active []
 
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 228.
-
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 228.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 248.
+surrounding objects on input line 214.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 248.
+surrounding objects on input line 214.
 
-[2.2]
+<fig/ingredients.pdf, id=113, 597.23125pt x 845.1575pt>
+File: fig/ingredients.pdf Graphic file (type pdf)
+<use fig/ingredients.pdf>
+Package pdftex.def Info: fig/ingredients.pdf  used on input line 218.
+(pdftex.def)             Requested size: 85.35826pt x 120.78438pt.
+<fig/dish.pdf, id=114, 597.23125pt x 845.1575pt>
+File: fig/dish.pdf Graphic file (type pdf)
+<use fig/dish.pdf>
+Package pdftex.def Info: fig/dish.pdf  used on input line 223.
+(pdftex.def)             Requested size: 85.35826pt x 120.78438pt.
+[2.2 <./fig/ingredients.pdf> <./fig/dish.pdf>]
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 276.
+surrounding objects on input line 247.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 276.
+surrounding objects on input line 247.
 
-<fig/N63_m4.pdf, id=133, 578.16pt x 144.54pt>
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 267.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 267.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 305.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 305.
+
+<fig/N63_m4.pdf, id=159, 578.16pt x 144.54pt>
 File: fig/N63_m4.pdf Graphic file (type pdf)
 <use fig/N63_m4.pdf>
-Package pdftex.def Info: fig/N63_m4.pdf  used on input line 278.
+Package pdftex.def Info: fig/N63_m4.pdf  used on input line 307.
 (pdftex.def)             Requested size: 227.62204pt x 56.90408pt.
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 292.
+surrounding objects on input line 313.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 292.
+surrounding objects on input line 313.
 
-<fig/N63_m4_smoothed.pdf, id=134, 578.16pt x 144.54pt>
+<fig/N63_m4_smoothed.pdf, id=160, 578.16pt x 144.54pt>
 File: fig/N63_m4_smoothed.pdf Graphic file (type pdf)
 <use fig/N63_m4_smoothed.pdf>
-Package pdftex.def Info: fig/N63_m4_smoothed.pdf  used on input line 294.
+Package pdftex.def Info: fig/N63_m4_smoothed.pdf  used on input line 315.
 (pdftex.def)             Requested size: 227.62204pt x 56.90408pt.
 (./main.bbl
 LaTeX Info: Redefining \tempurl on input line 66.
@@ -1526,29 +1600,29 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 pdfTeX warning: pdflatex (file ./fig/N63_m4_smoothed.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
 >]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 321.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 321.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 342.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 342.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 321.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 321.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 342.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 342.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 572C10977A928AA92BCF63FFEEE4FE48;2159.
+(rerunfilecheck)             Checksum: E6F3CAEF9C8BD208A789E454131742EA;2159.
  ) 
 Here is how much of TeX's memory you used:
- 29855 strings out of 492639
- 523771 string characters out of 6129301
- 600121 words of memory out of 5000000
- 32837 multiletter control sequences out of 15000+600000
- 707542 words of font info for 344 fonts, out of 8000000 for 9000
+ 30048 strings out of 492639
+ 527792 string characters out of 6129301
+ 600476 words of memory out of 5000000
+ 32998 multiletter control sequences out of 15000+600000
+ 748433 words of font info for 400 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  60i,11n,94p,795b,794s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{/usr/local/te
 xlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/local/tex
 live/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/usr/local/texl
-ive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/usr/local/texli
-ve/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{/usr/local/texliv
-e/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}</usr/local/texlive
+ive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{/usr/local/texli
+ve/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/usr/local/texliv
+e/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}</usr/local/texlive
 /2018/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/local/texl
 ive/2018/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></usr/local/
 texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/lo
@@ -1562,10 +1636,10 @@ ve/2018/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2018/
 texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2018/texmf-di
 st/fonts/type1/public/newtx/zxlri.pfb></usr/local/texlive/2018/texmf-dist/fonts
 /type1/public/newtx/zxlzi.pfb>
-Output written on main.pdf (3 pages, 789148 bytes).
+Output written on main.pdf (3 pages, 47819854 bytes).
 PDF statistics:
- 269 PDF objects out of 1000 (max. 8388607)
- 210 compressed objects within 3 object streams
- 37 named destinations out of 1000 (max. 500000)
- 47756 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 297 PDF objects out of 1000 (max. 8388607)
+ 232 compressed objects within 3 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 54422 words of extra memory for PDF output out of 61914 (max. 10000000)
 
