@@ -178,7 +178,7 @@ Since the data set including environmental sound during cooking is not released,
 % 使用した特徴量について書く
 
 % 本論文では2種類の特徴量を使用した．一つ目はMFCC，もう一つはNMFを用いたアクティベーション行列である．
-In this paper, two feature quantities are used. The first is the Mel frequency cepstrum coefficient (MFCC), and the other is the activation matrix usingNonnegative Matrix Factorization (NMF).
+In this paper, two feature quantities are used. The first is the Mel frequency cepstrum coefficient (MFCC), and the other is the activation matrix using Nonnegative Matrix Factorization (NMF).
 
 % MFCCは音声認識分野で広く使用されている特徴量であるが，AEDの分野でも有効な特徴量として広く用いられている．
  MFCC is a feature that is widely used in the speech recognition field, but it is also widely used as an effective feature in the field of AED.
@@ -319,8 +319,12 @@ In this paper, we use the method of simply making the number of state transition
 
 
 \section{Conclusion}
-In this research, we presented a method of utilizing acoustic signals for cooking activities recognition for cooking support systems, and examined cooking state identification using cooking sound using real environment data.
-By modeling cooking behavior with the superposition pattern of the basis of sound events, it is possible to identify with higher accuracy than the method of directly correlating labels and acoustic features as used in existing acoustic event detection and identification tasks.
+In this research, we presented a method of utilizing acoustic signals for cooking activities recognition for cooking support systems, and examined cooking state identification using cooking sound with real environment data.
+
+% 音声分野で広く用いられている MFCC と GMM を使用して 70パーセントを超える識別結果をえることができた．
+% 調理状態を音イベントの出現分布でモデル化する手法は低い精度の結果となった．今後の更なる研究が求められる．
+Using the MFCC and GMM widely used in the audio field, we could obtain over 70\% identification results.
+The method of modeling the cooking state by the appearance distribution of the sound event resulted in low accuracy. Further research is required in the future.
 
 % The acknowledgments section is defined using the "acks" environment (and NOT an unnumbered section). This ensures
 % the proper identification of the section in the article metadata, and the consistent spelling of the heading.
@@ -334,7 +338,6 @@ By modeling cooking behavior with the superposition pattern of the basis of soun
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{reference}
 
-%
 % If your work has an appendix, this is the place to put it.
 % \appendix
 
