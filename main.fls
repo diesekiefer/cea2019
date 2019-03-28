@@ -355,9 +355,13 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/libertine/LinLibertine
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/nxlbmi.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/ntxbsy.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/ntxbexx.tfm
+INPUT fig/aed_fig.pdf
+INPUT fig/aed_fig.pdf
 OUTPUT main.dvi
 INPUT fig/N63_m4.pdf
 INPUT fig/N63_m4.pdf
+INPUT fig/N63_m4_smoothed.pdf
+INPUT fig/N63_m4_smoothed.pdf
 OUTPUT comment.cut
 INPUT comment.cut
 INPUT comment.cut

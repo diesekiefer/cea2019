@@ -128,14 +128,6 @@
 
 \section{Introduction}
 
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=8cm]{fig/aed_fig.pdf}
-  \caption{Probrem of Acoustic event detection}
-  \Description{}
-  \label{aed}
-\end{figure}
-
 Cooking activities are fundamental to human life and supporting it with information processing technology will become more important in order to improve the quality of life\cite{Uriu2012}.
 
 For speech information processing, support by a spoken dialogue system is considered, but in order to support cooking activities, it is necessary to recognize the state in a way that does not hinder the behavior of the cooker, and the question answering system is suitable Absent. Therefore, it is necessary to properly sense the behavior data of the cooker and use it for behavior understanding.
@@ -145,10 +137,18 @@ However, studies using sounds (cooking sounds) generated at the time of cooking 
 
 While image recognition is good at recognizing static objects such as food materials, cooking sounds are superior in recognition of cooking behavior such as "cutting" and "stir-frying", and if it is suitable for this task Conceivable.
 
-Identification of cooking sound can also be considered as a task of Acoustic Event Detection and Classification (AEDC), but its recognition unit is a problem.
+Identification of cooking sound can also be considered as a task of Acoustic Event Detection and Classification (AEDC) \ref{aed}, but its recognition unit is a problem.
 What can be thought of as a recognition unit is cooking behavior such as "cutting" or "stir-frying" as described in the recipe. However, in order to perform recognition in cooking behavior units, it is necessary to model cooking sounds labeled for each cooking behavior appropriately, and it is necessary to appropriately model cooking sounds labeled for each cooking behavior, A method that directly associates features is not suitable\cite{Maijala2018}.
 
 In this research, assuming that the cooking sound when doing cooking behavior can be described by the overlapping pattern of the basis of plural sound events, by extracting the sound event feature amount by nonnegative matrix factorization and modeling it, cooking We examined whether it is possible to identify behavior.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=8cm]{fig/aed_fig.pdf}
+  \caption{Probrem of Acoustic event detection}
+  \Description{}
+  \label{aed}
+\end{figure}
 
 \section{Related work}
 % 関連研究
@@ -170,22 +170,25 @@ Although research has been conducted by applying speech recognition technology, 
 There are many types of acoustic events, so research for using low-quality data sets and research for using small-scale data sets are issues\cite{Imoto2018}.
 % AEDを調理行動理解に応用するためには，調理中の音響データを収録してデータセットを構築する必要があるが十分には行われていない.
 
+
 \section{Proposed Method}
 % 提案手法
 \subsection{Feature extraction}
 % 使用した特徴量について書く
 
-% MFCCは音声認識分野で広く使用されている特徴量であるが，AEDの分野でも有効な特徴量であることが実験的に示されており，本稿でも使用した．
-Mel frequency cepstrum coefficient (MFCC) is a feature that is widely used in the field of speech recognition, but has been experimentally shown to be an effective feature in the field of AED, and was also used in this paper.
+% 本論文では2種類の特徴量を使用した．一つ目はMFCC，もう一つはNMFを用いたアクティベーション行列である．
+In this paper, two feature quantities are used. The first is the MFCC, and the other is the activation matrix using NMF.
 
-Nonnegative Matrix Factorization (NMF) is one of multivariate analysis methods aimed at decomposing nonnegative value data into additive constituents, and attracts attention in various fields in recent years There is technology to be.
+% MFCCは音声認識分野で広く使用されている特徴量であるが，AEDの分野でも有効な特徴量として広く用いられている．
+Mel frequency cepstrum coefficient (MFCC) is a feature that is widely used in the speech recognition field, but it is also widely used as an effective feature in the field of AED.
+
+Nonnegative Matrix Factorization (NMF) is one of multivariate analysis methods aimed at decomposing nonnegative value data into additive constituents, and attracts attention in various fields in recent years There is technology to be \cite{Lee1999}.
 
 In the application of NMF to the analysis of acoustic signals, prepare spectrogram $ V $ as a two-dimensional matrix of time-frequency and approximate it to the product of two matrices $ H and U $ ($ V \simeq HU $) . One is called the basis matrix, and multiple characteristic spectral distributions that make up the original spectrogram are obtained. The other is called a weighting matrix, which indicates how much weight each basis vector is added at each time. Define the distance between $ V $ and $ HU $ and perform minimization to find $ H, U $.
 Using the generalized Kullback-Leibler divergence as a distance function, find the stopping point by the auxiliary function method.
 
 \subsection{Cooking state modeling}
 % 環境音を用いた調理状態の学習
-
 The spectral basis is expected to be the spectrum of sound events that occur frequently in cooking sounds. However, the recognition unit of cooking sound has a longer duration than these sound events. Therefore, we propose to model cooking behavior using the frequency of each sound event appearing in a long time interval corresponding to cooking behavior.
 
 Divide the weight vector sequence $ {U_t} $ by the window length $ N $ to obtain the weight matrix sequence $ X_0, \ldots, X_L $.
@@ -198,7 +201,6 @@ The NMF basis histogram $ \bm{x} _i $ is obtained by summing the weight vectors 
 
 However, $ X_ {i, n} $ is the nth row of the weight matrix $ X_i $.
 The histogram $ \bm {x} _i $ of the cooking behavior $ A $ is modeled by the output probability distribution $ P (x | A) $.
-
 
 \section{Experiment}
 \subsection{Dataset}
@@ -223,20 +225,46 @@ The basis number of NMF was set to be 10 for each of two resolved spectrograms, 
 The mixing number of GMM was only 2 mixed with MFCC, and the other 3 methods were 32 mixed.
 
 \begin{table}[t]
-\centering
-\caption{F-measure of classification in each method}
-\vspace{5pt}
-\label{result}
-\begin{tabular}{l|ccc|c}
-\hline
-\hline
-          & cut   & grill & others & total \\ \hline
-MFCC      & 0.521 & 0.362 & 0.119  & 0.404 \\ %\hline
-NMF       & 0.612 & 0.713 & 0.388  & {\bf 0.621} \\ \hline \hline
-\end{tabular}
+  \centering
+  \caption{MFCC results}
+  \label{result1}
+  \scalebox{0.8}{
+  \begin{tabular}{c|cccccc}
+    \hline \hline
+          & mix-1 & mix-2 & mix-4 & mix-8 & mix-16 & mix-32 \\ \hline
+    val 1 & 61.84 & 63.70 & 65.79 & 72.60 & 70.35  & 74.50  \\
+    val 2 & 48.55 & 68.33 & 60.70 & 65.99 & 64.69  & 62.11  \\
+    val 3 & 59.67 & 60.30 & 61.56 & 63.23 & 54.67  & 56.10  \\
+    val 4 & 63.52 & 69.48 & 75.28 & 54.64 & 55.19  & 55.01  \\
+    val 5 & 77.15 & 78.60 & 79.70 & 79.62 & 81.07  & 80.80  \\
+    val 6 & 65.72 & 69.61 & 80.12 & 71.90 & 74.64  & 77.15  \\ \hline
+  average & 62.74 & 68.34 & 70.53 & 68.00 & 66.77  & 67.61  \\
+    \hline \hline
+  \end{tabular}
+  }
 \end{table}
 
-The table \ref{result} shows the F value of each class and the whole for each method.
+\begin{table}[t]
+  \centering
+  \caption{NMF results}
+  \label{result2}
+  \scalebox{0.8}{
+  \begin{tabular}{c|cccccc}
+    \hline \hline
+          & mix-1 & mix-2 & mix-4 & mix-8 & mix-16 & mix-32 \\ \hline
+    val 1 & 57.98 & 65.12 & 67.29 & 66.49 & 66.68  & 70.21  \\
+    val 2 & 50.41 & 65.92 & 66.20 & 66.71 & 67.84  & 72.39  \\
+    val 3 & 56.49 & 58.04 & 51.86 & 48.26 & 52.40  & 54.49  \\
+    val 4 & 49.91 & 61.18 & 62.85 & 47.88 & 32.88  & 32.98  \\
+    val 5 & 56.15 & 72.58 & 74.98 & 71.07 & 75.32  & 70.80  \\
+    val 6 & 51.29 & 57.46 & 52.44 & 51.83 & 60.00  & 55.86  \\ \hline
+  average & 53.71 & 63.38 & 62.60 & 58.70 & 59.18  & 59.45  \\
+    \hline \hline
+  \end{tabular}
+  }
+\end{table}
+
+The table \ref{result1} \ref{result2} shows the F value of each class and the whole for each method.
 
 The MFCC method directly associates the acoustic features with the labels, and it is considered that the difference between various cooking environments was not successfully absorbed.
 Moreover, the GMM method is characterized by the class posterior probability and is expected to be robust to differences in environment, but it has the lowest F value. This was the worst% result.
@@ -252,8 +280,21 @@ When HPSS is used in addition to the proposed method, it was expected that the b
   \label{baseine_timeline_result}
 \end{figure}
 
-% \subsection{Post processing}
+\subsection{Post processing}
 % 制約を設けた結果について書く
+
+% フレームごとの状態推定では状態が頻繁遷移してしまう点が問題である．これを回避する手法として HMM を用いて状態遷移に制約をつけることが一般に用いられる．
+In frame-by-frame state estimation, the problem is that the state changes frequently. As a method to avoid this, it is generally used to constrain the state transition using HMM.
+% 本論文では，単に状態遷移回数を既知として，状態遷移回数が正しくなるまで平滑化フィルタをかけるという手法を使用した．
+In this paper, we use the method of simply making the number of state transitions known and applying a smoothing filter until the number of state transitions is correct.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=8cm]{fig/N63_m4_smoothed.pdf}
+  \caption{result}
+  \Description{}
+  \label{baseine_timeline_smoothed_result}
+\end{figure}
 
 
 \section{Conclusion}

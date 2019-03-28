@@ -41,3 +41,23 @@ mfcc_average の結果(N = 63)
   \end{tabular}
   }
 \end{table}
+
+\begin{table}[t]
+  \centering
+  \caption{NMF}
+  \label{tab:nmf}
+  \scalebox{1}{
+  \begin{tabular}{c|cccccc}
+    \hline \hline
+          & mix-1 & mix-2 & mix-4 & mix-8 & mix-16 & mix-32 \\ \hline
+    val 1 & 57.98 & 65.12 & 67.29 & 66.49 & 66.68  & 70.21  \\
+    val 2 & 50.41 & 65.92 & 66.20 & 66.71 & 67.84  & 72.39  \\
+    val 3 & 56.49 & 58.04 & 51.86 & 48.26 & 52.40  & 54.49  \\
+    val 4 & 49.91 & 61.18 & 62.85 & 47.88 & 32.88  & 32.98  \\
+    val 5 & 56.15 & 72.58 & 74.98 & 71.07 & 75.32  & 70.80  \\
+    val 6 & 51.29 & 57.46 & 52.44 & 51.83 & 60.00  & 55.86  \\ \hline
+  average & 53.71 & 63.38 & 62.60 & 58.70 & 59.18  & 59.45  \\
+    \hline \hline
+  \end{tabular}
+  }
+\end{table}

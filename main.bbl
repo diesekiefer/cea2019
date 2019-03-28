@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{8}
+\begin{thebibliography}{9}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -87,6 +87,21 @@
   Multimodal Activity (CMU-MMAC) Database''}}.
 \newblock \bibinfo{type}{{T}echnical {R}eport}. \bibinfo{institution}{CMU}.
 \newblock
+
+
+\bibitem[\protect\citeauthoryear{Lee and Sebastian~Seung}{Lee and
+  Sebastian~Seung}{1999}]%
+        {Lee1999}
+\bibfield{author}{\bibinfo{person}{Daniel Lee} {and} \bibinfo{person}{H
+  Sebastian~Seung}.} \bibinfo{year}{1999}\natexlab{}.
+\newblock \showarticletitle{Learning the Parts of Objects by Non-Negative
+  Matrix Factorization}.
+\newblock \bibinfo{journal}{\emph{Nature}}  \bibinfo{volume}{401}
+  (\bibinfo{date}{11} \bibinfo{year}{1999}), \bibinfo{pages}{788--791}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1038/44565}
+\showDOI{\tempurl}
 
 
 \bibitem[\protect\citeauthoryear{Maijala, Zhao, Heittola, and Virtanen}{Maijala
