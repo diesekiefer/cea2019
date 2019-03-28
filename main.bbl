@@ -55,9 +55,10 @@
 \bibitem[\protect\citeauthoryear{Kojima, Ijiri, White, Kataoka, and
   Hirabayashi}{Kojima et~al\mbox{.}}{2016}]%
         {Kojima2016}
-\bibfield{author}{\bibinfo{person}{T. Kojima}, \bibinfo{person}{T. Ijiri},
-  \bibinfo{person}{J. White}, \bibinfo{person}{H. Kataoka}, {and}
-  \bibinfo{person}{A. Hirabayashi}.} \bibinfo{year}{2016}\natexlab{}.
+\bibfield{author}{\bibinfo{person}{Takamichi. Kojima},
+  \bibinfo{person}{Takashi. Ijiri}, \bibinfo{person}{Jeremy. White},
+  \bibinfo{person}{Hidetomo. Kataoka}, {and} \bibinfo{person}{Akira.
+  Hirabayashi}.} \bibinfo{year}{2016}\natexlab{}.
 \newblock \showarticletitle{CogKnife: Food recognition from their cutting
   sounds}. In \bibinfo{booktitle}{\emph{2016 IEEE International Conference on
   Multimedia Expo Workshops (ICMEW)}}. \bibinfo{pages}{1--6}.
@@ -70,8 +71,9 @@
 \bibitem[\protect\citeauthoryear{Kuehne, Arslan, and Serre}{Kuehne
   et~al\mbox{.}}{2014}]%
         {Kuehne2014}
-\bibfield{author}{\bibinfo{person}{H. Kuehne}, \bibinfo{person}{A.~B. Arslan},
-  {and} \bibinfo{person}{T. Serre}.} \bibinfo{year}{2014}\natexlab{}.
+\bibfield{author}{\bibinfo{person}{Hilde. Kuehne}, \bibinfo{person}{Ali.
+  Arslan}, {and} \bibinfo{person}{Thomas. Serre}.}
+  \bibinfo{year}{2014}\natexlab{}.
 \newblock \showarticletitle{The Language of Actions: Recovering the Syntax and
   Semantics of Goal-Directed Human Activities}. In
   \bibinfo{booktitle}{\emph{Proceedings of Computer Vision and Pattern
