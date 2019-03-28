@@ -14,45 +14,45 @@ Warning--empty publisher in Kojima2016
 Warning--empty address in Kojima2016
 Warning--empty publisher in Kuehne2014
 Warning--empty address in Kuehne2014
-You've used 6 entries,
+You've used 8 entries,
             5719 wiz_defined-function locations,
-            1344 strings with 16074 characters,
-and the built_in function-call counts, 7761 in all, are:
-= -- 863
-> -- 327
+            1362 strings with 16603 characters,
+and the built_in function-call counts, 10144 in all, are:
+= -- 1192
+> -- 388
 < -- 0
-+ -- 108
-- -- 104
-* -- 603
-:= -- 819
-add.period$ -- 31
-call.type$ -- 6
-change.case$ -- 49
-chr.to.int$ -- 6
-cite$ -- 10
-duplicate$ -- 676
-empty$ -- 466
-format.name$ -- 124
-if$ -- 1784
++ -- 126
+- -- 124
+* -- 763
+:= -- 1040
+add.period$ -- 41
+call.type$ -- 8
+change.case$ -- 61
+chr.to.int$ -- 8
+cite$ -- 12
+duplicate$ -- 897
+empty$ -- 620
+format.name$ -- 148
+if$ -- 2377
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 24
-newline$ -- 95
-num.names$ -- 50
-pop$ -- 251
+missing$ -- 33
+newline$ -- 117
+num.names$ -- 66
+pop$ -- 322
 preamble$ -- 1
-purify$ -- 102
+purify$ -- 132
 quote$ -- 0
-skip$ -- 248
+skip$ -- 324
 stack$ -- 0
-substring$ -- 568
-swap$ -- 76
+substring$ -- 766
+swap$ -- 101
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 166
+type$ -- 212
 warning$ -- 4
-while$ -- 43
+while$ -- 61
 width$ -- 0
-write$ -- 154
+write$ -- 197
 (There were 4 warnings)

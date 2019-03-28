@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.10)  28 MAR 2019 11:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.10)  28 MAR 2019 14:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1470,63 +1470,68 @@ Class acmart Warning: \vspace should only be used to provide space above/below
 surrounding objects on input line 127.
 
 
-Package natbib Warning: Citation `Urabe2018' on page 1 undefined on input line 
-151.
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 131.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 131.
+
+<fig/aed_fig.pdf, id=66, 562.10098pt x 360.07825pt>
+File: fig/aed_fig.pdf Graphic file (type pdf)
+<use fig/aed_fig.pdf>
+Package pdftex.def Info: fig/aed_fig.pdf  used on input line 133.
+(pdftex.def)             Requested size: 227.62204pt x 145.8144pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1.1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-]
-
-Package natbib Warning: Citation `Imoto2018' on page 2 undefined on input line 
-162.
+ <./fig/aed_fig.pdf>]
+Underfull \vbox (badness 2698) has occurred while \output is active []
 
 
-Overfull \hbox (1.26376pt too wide) in paragraph at lines 202--205
+Overfull \hbox (1.26376pt too wide) in paragraph at lines 211--214
 \T1/LinuxLibertineT-TLF/m/n/10 (-20) six-fold cross val-i-da-tion was per-forme
 d us-ing the six recorded
  []
 
-
-Underfull \vbox (badness 1137) has occurred while \output is active []
-
- [2.2]
+[2.2]
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 216.
+surrounding objects on input line 225.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 216.
+surrounding objects on input line 225.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 219.
+surrounding objects on input line 228.
 
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 247.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 247.
+
+<fig/N63_m4.pdf, id=129, 578.16pt x 144.54pt>
+File: fig/N63_m4.pdf Graphic file (type pdf)
+<use fig/N63_m4.pdf>
+Package pdftex.def Info: fig/N63_m4.pdf  used on input line 249.
+(pdftex.def)             Requested size: 227.62204pt x 56.90408pt.
 Processing 'acks' comment.
 \openout3 = `comment.cut'.
 
  Comment 'acks' writing to comment.cut.
 Straight input of comment.cut. (./comment.cut) (./main.bbl
-Underfull \vbox (badness 2478) has occurred while \output is active []
-
-LaTeX Info: Redefining \tempurl on input line 89.
-LaTeX Info: Redefining \tempurl on input line 127.
-
-Underfull \hbox (badness 2469) in paragraph at lines 116--129
-[]\T1/LinuxLibertineT-TLF/m/n/8 (+20) Daisuke Uriu, Mizuki Na-mai, Satoru Tokuh
-isa, Ryo Kashi-wagi,
- []
-
-)
-
-Package natbib Warning: There were undefined citations.
-
-
-Package balance Warning: You have called \balance in second column
-(balance)                Columns might not be balanced.
+LaTeX Info: Redefining \tempurl on input line 66.
+LaTeX Info: Redefining \tempurl on input line 104.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -1534,23 +1539,36 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3.3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 262.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 262.
+[3.3 <./fig/N63_m4.pdf>]
+LaTeX Info: Redefining \tempurl on input line 141.
+LaTeX Info: Redefining \tempurl on input line 161.
+
+Underfull \hbox (badness 2469) in paragraph at lines 150--163
+[]\T1/LinuxLibertineT-TLF/m/n/8 (+20) Daisuke Uriu, Mizuki Na-mai, Satoru Tokuh
+isa, Ryo Kashi-wagi,
+ []
+
+)
+Overfull \vbox (1.90399pt too high) has occurred while \output is active []
+
+
+[4.4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 279.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 279.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 262.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 262.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 279.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 279.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2193AD0BC324E685601D0D557CF4F7BB;1945.
+(rerunfilecheck)             Checksum: F43BC52449C38D66AAA6823C562A9118;1961.
  ) 
 Here is how much of TeX's memory you used:
- 29807 strings out of 492639
- 522557 string characters out of 6129301
- 593255 words of memory out of 5000000
- 32843 multiletter control sequences out of 15000+600000
- 705943 words of font info for 324 fonts, out of 8000000 for 9000
+ 29842 strings out of 492639
+ 523251 string characters out of 6129301
+ 594255 words of memory out of 5000000
+ 32861 multiletter control sequences out of 15000+600000
+ 706860 words of font info for 330 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 60i,11n,94p,795b,791s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,94p,795b,971s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{/usr/local/te
 xlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/local/tex
@@ -1572,10 +1590,10 @@ e/2018/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2018/t
 exmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2018/texmf-dis
 t/fonts/type1/public/newtx/zxlri.pfb></usr/local/texlive/2018/texmf-dist/fonts/
 type1/public/newtx/zxlzi.pfb>
-Output written on main.pdf (3 pages, 490079 bytes).
+Output written on main.pdf (4 pages, 526224 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 159 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 50813 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 230 PDF objects out of 1000 (max. 8388607)
+ 184 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 50823 words of extra memory for PDF output out of 51595 (max. 10000000)
 

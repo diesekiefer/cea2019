@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{6}
+\begin{thebibliography}{8}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -36,6 +36,21 @@
 \providecommand\bibinfo[2]{#2}
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Imoto}{Imoto}{2018}]%
+        {Imoto2018}
+\bibfield{author}{\bibinfo{person}{Keisuke Imoto}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{``Introduction to acoustic event and scene
+  analysis''}.
+\newblock \bibinfo{journal}{\emph{Acoustical Science and Technology}}
+  \bibinfo{volume}{39}, \bibinfo{number}{3} (\bibinfo{year}{2018}),
+  \bibinfo{pages}{182--188}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1250/ast.39.182}
+\showDOI{\tempurl}
+
 
 \bibitem[\protect\citeauthoryear{Kojima, Ijiri, White, Kataoka, and
   Hirabayashi}{Kojima et~al\mbox{.}}{2016}]%
@@ -106,6 +121,25 @@
   Heidelberg}, \bibinfo{pages}{168--185}.
 \newblock
 \showISBNx{978-3-642-40303-3}
+
+
+\bibitem[\protect\citeauthoryear{Urabe, Inoue, and Yoshioka}{Urabe
+  et~al\mbox{.}}{2018}]%
+        {Urabe2018}
+\bibfield{author}{\bibinfo{person}{Shuichi Urabe}, \bibinfo{person}{Katsufumi
+  Inoue}, {and} \bibinfo{person}{Michifumi Yoshioka}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Cooking Activities Recognition in Egocentric Videos
+  Using Combining 2DCNN and 3DCNN}. In \bibinfo{booktitle}{\emph{Proceedings of
+  the Joint Workshop on Multimedia for Cooking and Eating Activities and
+  Multimedia Assisted Dietary Management}} \emph{(\bibinfo{series}{CEA/MADiMa
+  '18})}. \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{1--8}.
+\newblock
+\showISBNx{978-1-4503-6537-6}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3230519.3230584}
+\showDOI{\tempurl}
 
 
 \bibitem[\protect\citeauthoryear{Uriu, Namai, Tokuhisa, Kashiwagi, Inami, and

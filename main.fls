@@ -356,7 +356,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/nxlbmi.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/ntxbsy.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/ntxbexx.tfm
 OUTPUT main.dvi
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/libertine/LinBiolinumTI-tlf-t1.tfm
+INPUT fig/N63_m4.pdf
+INPUT fig/N63_m4.pdf
 OUTPUT comment.cut
 INPUT comment.cut
 INPUT comment.cut
